@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Boulange de Beaulieu — Boulangerie artisanale à Beaulieu-sur-Mer</title>
+  <meta name="description" content="La Boulange de Beaulieu, artisan boulanger-pâtissier à Beaulieu-sur-Mer : pains, viennoiseries, pâtisseries et produits salés faits maison chaque jour.">
+  <meta name="theme-color" content="#0b0a08">
+  <link rel="canonical" href="https://www.beaulieu-pizza.fr/boulangerie/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="La Boulange de Beaulieu">
+  <meta property="og:title" content="La Boulange de Beaulieu — Boulangerie artisanale à Beaulieu-sur-Mer">
+  <meta property="og:description" content="Pains, viennoiseries, pâtisseries et produits salés faits maison, avec des ingrédients de qualité et un savoir-faire artisanal.">
+  <meta property="og:image" content="assets/img/hero-pain.png">
+  <meta property="og:locale" content="fr_FR">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,900;1,500&family=Jost:wght@300;400;500;600&display=swap">
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Bakery",
+    "name": "La Boulange de Beaulieu",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "30 boulevard Marinoni",
+      "postalCode": "06310",
+      "addressLocality": "Beaulieu-sur-Mer",
+      "addressCountry": "FR"
+    },
+    "telephone": "+33493010138",
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "07:00", "closes": "13:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "16:00", "closes": "19:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "07:00", "closes": "13:00" }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Aller au contenu principal</a>
+
+  <!-- =================== HEADER =================== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#accueil" class="logo" aria-label="La Boulange de Beaulieu — retour à l'accueil">
+        <svg class="logo-icon" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round">
+          <path d="M20 37 L20 11"/>
+          <path d="M20 11 C16 9 14 6 15 3"/>
+          <path d="M20 11 C24 9 26 6 25 3"/>
+          <path d="M20 17.5 C16.5 16 15 13.5 15.5 11"/>
+          <path d="M20 17.5 C23.5 16 25 13.5 24.5 11"/>
+          <path d="M20 24 C17 23 16 21 16.5 19"/>
+          <path d="M20 24 C23 23 24 21 23.5 19"/>
+        </svg>
+        <span class="logo-name">La Boulange<br>de Beaulieu</span>
+        <span class="logo-tag" data-i18n="logo_tagline">Artisan passionné</span>
+      </a>
+
+      <nav class="nav-desktop" aria-label="Navigation principale">
+        <a href="#accueil" class="is-active" data-i18n="nav_accueil">Accueil</a>
+        <a href="#categories" data-i18n="nav_produits">Nos produits</a>
+        <a href="histoire.html" data-i18n="nav_histoire">Notre histoire</a>
+        <a href="#adresse" data-i18n="nav_boutique">Notre boutique</a>
+        <a href="#contact" data-i18n="nav_contact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <div class="lang-switcher" id="lang-switcher">
+          <button class="lang-current" id="lang-toggle" type="button" aria-haspopup="true" aria-expanded="false">
+            <span class="flag" id="lang-current-flag">🇫🇷</span>
+            <span id="lang-current-code">FR</span>
+            <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="lang-menu" id="lang-menu" role="menu">
+            <button class="lang-option" type="button" data-lang="fr" role="menuitem"><span class="flag">🇫🇷</span><span class="name">Français</span><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></button>
+            <button class="lang-option" type="button" data-lang="en" role="menuitem"><span class="flag">🇬🇧</span><span class="name">English</span><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></button>
+            <button class="lang-option" type="button" data-lang="ru" role="menuitem"><span class="flag">🇷🇺</span><span class="name">Русский</span><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></button>
+            <button class="lang-option" type="button" data-lang="it" role="menuitem"><span class="flag">🇮🇹</span><span class="name">Italiano</span><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></button>
+          </div>
+        </div>
+        <a class="icon-btn" href="tel:+33493010138" aria-label="Appeler la boulangerie">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L14 13l5 2v4a2 2 0 0 1-2 2A15 15 0 0 1 2 6a2 2 0 0 1 2-2z"/></svg>
+        </a>
+        <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-mobile">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+    <nav id="nav-mobile" class="nav-mobile" aria-label="Navigation mobile">
+      <a href="#accueil" data-i18n="nav_accueil">Accueil</a>
+      <a href="#categories" data-i18n="nav_produits">Nos produits</a>
+      <a href="histoire.html" data-i18n="nav_histoire">Notre histoire</a>
+      <a href="#adresse" data-i18n="nav_boutique">Notre boutique</a>
+      <a href="#contact" data-i18n="nav_contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- =================== HERO =================== -->
+    <section id="accueil" class="hero" aria-labelledby="hero-title">
+      <div class="hero-media" aria-hidden="true">
+        <img src="assets/img/hero-pain.png" alt="" fetchpriority="high">
+      </div>
+
+      <p class="hero-note" data-i18n-html="hero_note">Du bon pain<br>au quotidien</p>
+      <ul class="hero-side-labels">
+        <li data-i18n="hero_label_quality">Qualité</li>
+        <li data-i18n="hero_label_tradition">Tradition</li>
+        <li data-i18n="hero_label_passion">Passion</li>
+      </ul>
+
+      <div class="container">
+        <p class="hero-kicker" data-i18n-html="hero_kicker">PAINS <span>·</span> VIENNOISERIES <span>·</span> PÂTISSERIES <span>·</span> PRODUITS SALÉS</p>
+        <h1 id="hero-title">
+          <span data-i18n="hero_title1">L'art de la</span>
+          <span class="accent" data-i18n="hero_title_accent">boulangerie</span>
+          <span class="rule"></span>
+        </h1>
+        <p class="hero-text" data-i18n="hero_text">Des produits frais, faits maison, avec des ingrédients de qualité et un savoir-faire artisanal.</p>
+        <a class="btn btn--primary" href="#categories">
+          <span data-i18n="hero_cta">Découvrir nos produits</span> <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="12" x2="20" y2="12"/><polyline points="13 5 20 12 13 19"/></svg>
+        </a>
+      </div>
+    </section>
+
+    <!-- =================== CATÉGORIES =================== -->
+    <section id="categories" class="section" aria-labelledby="categories-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow" data-i18n="categories_eyebrow">Nos univers</p>
+          <h2 id="categories-title" data-i18n="categories_title">Nos catégories</h2>
+        </div>
+
+        <div class="categories-grid">
+
+          <!-- Viennoiseries -->
+          <article class="category-card">
+            <a class="category-card__cover-link" href="viennoiseries.html" aria-label="Voir la catégorie Viennoiseries" data-i18n-aria="cat_aria_viennoiseries"></a>
+            <div class="category-card__media">
+              <img src="assets/img/cat-viennoiseries.png" alt="Croissants, pains au chocolat et pain aux raisins" loading="lazy">
+            </div>
+            <div class="category-card__body">
+              <h3 data-i18n="cat_viennoiseries_title">Viennoiseries</h3>
+              <p data-i18n="cat_viennoiseries_desc">Croissants, pains au chocolat, brioches et plus encore.</p>
+              <span class="category-card__link"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="12" x2="20" y2="12"/><polyline points="13 5 20 12 13 19"/></svg></span>
+            </div>
+          </article>
+
+          <!-- Pains -->
+          <article class="category-card">
+            <a class="category-card__cover-link" href="pains.html" aria-label="Voir la catégorie Pains" data-i18n-aria="cat_aria_pains"></a>
+            <div class="category-card__media">
+              <img src="assets/img/cat-pains.png" alt="Baguettes, pain de campagne et pains spéciaux" loading="lazy">
+            </div>
+            <div class="category-card__body">
+              <h3 data-i18n="cat_pains_title">Pains</h3>
+              <p data-i18n="cat_pains_desc">Pains traditionnels, spéciaux et aux céréales.</p>
+              <span class="category-card__link"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="12" x2="20" y2="12"/><polyline points="13 5 20 12 13 19"/></svg></span>
+            </div>
+          </article>
+
+          <!-- Pâtisseries -->
+          <article class="category-card">
+            <a class="category-card__cover-link" href="patisseries.html" aria-label="Voir la catégorie Pâtisseries" data-i18n-aria="cat_aria_patisseries"></a>
+            <div class="category-card__media">
+              <img src="assets/img/cat-patisseries.png" alt="Éclairs, Paris-Brest, tartes aux fruits et millefeuille" loading="lazy">
+            </div>
+            <div class="category-card__body">
+              <h3 data-i18n="cat_patisseries_title">Pâtisseries</h3>
+              <p data-i18n="cat_patisseries_desc">Des créations gourmandes pour tous les goûts.</p>
+              <span class="category-card__link"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="12" x2="20" y2="12"/><polyline points="13 5 20 12 13 19"/></svg></span>
+            </div>
+          </article>
+
+          <!-- Produits salés -->
+          <article class="category-card">
+            <a class="category-card__cover-link" href="sale.html" aria-label="Voir la catégorie Produits salés" data-i18n-aria="cat_aria_sale"></a>
+            <div class="category-card__media">
+              <img src="assets/img/cat-sale.png" alt="Quiches, sandwichs et viennoiseries salées" loading="lazy">
+            </div>
+            <div class="category-card__body">
+              <h3 data-i18n="cat_sale_title">Produits salés</h3>
+              <p data-i18n="cat_sale_desc">Sandwichs, quiches et spécialités salées.</p>
+              <span class="category-card__link"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="12" x2="20" y2="12"/><polyline points="13 5 20 12 13 19"/></svg></span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+
+      <div class="commitments">
+        <div class="container commitments-row">
+          <div class="commitment">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.8 4.8L18.5 9l-4.7 1.8L12 15.5 10.2 10.8 5.5 9l4.7-1.2L12 3z"/><path d="M19 15l.9 2.3L22 18l-2.1.7L19 21l-.8-2.3L16 18l2.2-.7z"/></svg>
+            <span data-i18n-html="commitment1">Produits frais<br>tous les jours</span>
+          </div>
+          <div class="commitment">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"><path d="M12 21V6"/><path d="M12 6c-2-1-3-2.5-2.5-4.5"/><path d="M12 6c2-1 3-2.5 2.5-4.5"/><path d="M12 10.5c-1.7-.8-2.6-2-2.2-3.6"/><path d="M12 10.5c1.7-.8 2.6-2 2.2-3.6"/><path d="M12 15c-1.4-.7-2.1-1.7-1.8-3"/><path d="M12 15c1.4-.7 2.1-1.7 1.8-3"/></svg>
+            <span data-i18n-html="commitment2">Farines de qualité<br>sélectionnées</span>
+          </div>
+          <div class="commitment">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 13a4 4 0 0 1 1-7.8 4.5 4.5 0 0 1 8.6-1.6A4 4 0 0 1 18 13v5H6v-5z"/><line x1="6" y1="21" x2="18" y2="21"/><line x1="9" y1="18" x2="9" y2="13"/><line x1="15" y1="18" x2="15" y2="13"/></svg>
+            <span data-i18n-html="commitment3">Fabrication<br>artisanale</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================== NOTRE HISTOIRE =================== -->
+    <section id="histoire" class="story story--split" aria-labelledby="histoire-title">
+      <div class="container">
+        <div class="history-layout">
+          <div class="history-gallery">
+            <div class="history-gallery__scroll" id="history-gallery-scroll">
+              <div class="history-gallery__item">
+                <img src="assets/img/histoire-devanture.png" alt="La devanture de La Boulange de Beaulieu, de nuit">
+              </div>
+              <div class="history-gallery__item">
+                <img src="assets/img/histoire-atelier.jpg" alt="Le fournil de La Boulange de Beaulieu, à l'ouvrage">
+              </div>
+            </div>
+            <div class="history-gallery__dots" id="history-gallery-dots">
+              <button class="history-gallery__dot is-active" data-index="0" aria-label="Photo 1"></button>
+              <button class="history-gallery__dot" data-index="1" aria-label="Photo 2"></button>
+            </div>
+          </div>
+
+          <div class="history-content">
+            <p class="eyebrow" data-i18n="history_eyebrow">Depuis 1999</p>
+            <h2 id="histoire-title" data-i18n="histoire_title">Notre histoire</h2>
+            <p data-i18n="histoire_p1">En 1999, après avoir changé de région, Jean-Paul Jacquel tombe sous le charme de Beaulieu-sur-Mer et décide d'y acheter une boulangerie.</p>
+            <p data-i18n="histoire_p2">En 2005, son fils Jean-Philippe reprend le flambeau et perpétue depuis ce savoir-faire familial avec passion.</p>
+            <p class="pull" data-i18n="histoire_p3">Plus de 25 ans après ses débuts, la boulangerie appartient toujours à la famille Jacquel et continue d'écrire son histoire au cœur de la ville.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================== INFORMATIONS PRATIQUES =================== -->
+    <section id="adresse" class="practical" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow" data-i18n="practical_eyebrow">Nous trouver</p>
+          <h2 id="contact-title" data-i18n="practical_title">Informations pratiques</h2>
+        </div>
+
+        <div class="practical-layout" id="contact">
+          <div class="info-stack">
+            <div class="practical-card">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s7-7.5 7-13a7 7 0 1 0-14 0c0 5.5 7 13 7 13z"/><circle cx="12" cy="9" r="2.5"/></svg>
+              <h3 data-i18n="label_adresse">Adresse</h3>
+              <address>
+                30 boulevard Marinoni<br>
+                06310 Beaulieu-sur-Mer<br>
+                France
+              </address>
+              <a class="link-underline" href="https://www.google.com/maps/search/?api=1&query=30+boulevard+Marinoni+06310+Beaulieu-sur-Mer" target="_blank" rel="noopener" data-i18n="link_maps">Voir sur la carte</a>
+            </div>
+
+            <div class="practical-card">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L14 13l5 2v4a2 2 0 0 1-2 2A15 15 0 0 1 2 6a2 2 0 0 1 2-2z"/></svg>
+              <h3 data-i18n="label_telephone">Téléphone</h3>
+              <p><a class="link-underline" href="tel:+33493010138">04 93 01 01 38</a></p>
+            </div>
+          </div>
+
+          <div class="hours-card">
+            <div class="hours-card__head">
+              <div>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 16 14"/></svg>
+                <h3 data-i18n="label_horaires">Horaires d'ouverture</h3>
+              </div>
+              <span class="hours-status" id="hours-status">—</span>
+            </div>
+            <ul class="hours-list" id="hours-list">
+              <li data-day="1"><span class="hours-list__day" data-i18n="day_mon">Lundi</span><span class="hours-list__time">7h–13h &nbsp;·&nbsp; 16h–19h</span></li>
+              <li data-day="2"><span class="hours-list__day" data-i18n="day_tue">Mardi</span><span class="hours-list__time">7h–13h &nbsp;·&nbsp; 16h–19h</span></li>
+              <li data-day="3"><span class="hours-list__day" data-i18n="day_wed">Mercredi</span><span class="hours-list__time">7h–13h &nbsp;·&nbsp; 16h–19h</span></li>
+              <li data-day="4"><span class="hours-list__day" data-i18n="day_thu">Jeudi</span><span class="hours-list__time">7h–13h &nbsp;·&nbsp; 16h–19h</span></li>
+              <li data-day="5"><span class="hours-list__day" data-i18n="day_fri">Vendredi</span><span class="hours-list__time">7h–13h &nbsp;·&nbsp; 16h–19h</span></li>
+              <li data-day="6"><span class="hours-list__day" data-i18n="day_sat">Samedi</span><span class="hours-list__time">7h–13h &nbsp;·&nbsp; 16h–19h</span></li>
+              <li data-day="0"><span class="hours-list__day" data-i18n="day_sun">Dimanche</span><span class="hours-list__time">7h–13h</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =================== FOOTER =================== -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#accueil" class="logo">
+          <span class="logo-name">La Boulange<br>de Beaulieu</span>
+        </a>
+        <p data-i18n="footer_desc">Boulangerie-pâtisserie artisanale à Beaulieu-sur-Mer. Pains, viennoiseries, pâtisseries et produits salés faits maison.</p>
+        <a class="footer-social" href="https://www.instagram.com/laboulangedebeaulieu/" target="_blank" rel="noopener" aria-label="Instagram La Boulange de Beaulieu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="0.6" fill="currentColor" stroke="none"/></svg>
+          Instagram
+        </a>
+      </div>
+
+      <div class="footer-col">
+        <h4 data-i18n="footer_nav_title">Navigation</h4>
+        <ul>
+          <li><a href="#accueil" data-i18n="nav_accueil">Accueil</a></li>
+          <li><a href="#categories" data-i18n="nav_produits">Nos produits</a></li>
+          <li><a href="histoire.html" data-i18n="nav_histoire">Notre histoire</a></li>
+          <li><a href="#adresse" data-i18n="nav_boutique">Notre boutique</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 data-i18n="footer_coord_title">Coordonnées</h4>
+        <ul>
+          <li>30 boulevard Marinoni</li>
+          <li>06310 Beaulieu-sur-Mer</li>
+          <li><a href="tel:+33493010138">04 93 01 01 38</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© <span id="footer-year"></span> La Boulange de Beaulieu. <span data-i18n="footer_rights">Tous droits réservés.</span></p>
+      <div class="footer-legal-links">
+        <a href="mentions-legales.html" data-i18n="footer_legal">Mentions légales</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

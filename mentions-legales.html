@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mentions légales — La Boulange de Beaulieu</title>
+  <meta name="description" content="Mentions légales du site de La Boulange de Beaulieu.">
+  <meta name="theme-color" content="#0b0a08">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,900;1,500&family=Jost:wght@300;400;500;600&display=swap">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Aller au contenu principal</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html#accueil" class="logo" aria-label="La Boulange de Beaulieu — retour à l'accueil">
+        <svg class="logo-icon" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round">
+          <path d="M20 37 L20 11"/><path d="M20 11 C16 9 14 6 15 3"/><path d="M20 11 C24 9 26 6 25 3"/>
+          <path d="M20 17.5 C16.5 16 15 13.5 15.5 11"/><path d="M20 17.5 C23.5 16 25 13.5 24.5 11"/>
+          <path d="M20 24 C17 23 16 21 16.5 19"/><path d="M20 24 C23 23 24 21 23.5 19"/>
+        </svg>
+        <span class="logo-name">La Boulange<br>de Beaulieu</span>
+        <span class="logo-tag" data-i18n="logo_tagline">Artisan passionné</span>
+      </a>
+      <nav class="nav-desktop" aria-label="Navigation principale">
+        <a href="index.html#accueil" data-i18n="nav_accueil">Accueil</a>
+        <a href="index.html#categories" data-i18n="nav_produits">Nos produits</a>
+        <a href="histoire.html" data-i18n="nav_histoire">Notre histoire</a>
+        <a href="index.html#adresse" data-i18n="nav_boutique">Notre boutique</a>
+        <a href="index.html#contact" data-i18n="nav_contact">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <div class="lang-switcher" id="lang-switcher">
+          <button class="lang-current" id="lang-toggle" type="button" aria-haspopup="true" aria-expanded="false">
+            <span class="flag" id="lang-current-flag">🇫🇷</span>
+            <span id="lang-current-code">FR</span>
+            <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="lang-menu" id="lang-menu" role="menu">
+            <button class="lang-option" type="button" data-lang="fr" role="menuitem"><span class="flag">🇫🇷</span><span class="name">Français</span><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></button>
+            <button class="lang-option" type="button" data-lang="en" role="menuitem"><span class="flag">🇬🇧</span><span class="name">English</span><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></button>
+            <button class="lang-option" type="button" data-lang="ru" role="menuitem"><span class="flag">🇷🇺</span><span class="name">Русский</span><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></button>
+            <button class="lang-option" type="button" data-lang="it" role="menuitem"><span class="flag">🇮🇹</span><span class="name">Italiano</span><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></button>
+          </div>
+        </div>
+        <a class="icon-btn" href="tel:+33493010138" aria-label="Appeler la boulangerie" data-i18n-aria="aria_call"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L14 13l5 2v4a2 2 0 0 1-2 2A15 15 0 0 1 2 6a2 2 0 0 1 2-2z"/></svg></a>
+        <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-mobile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button>
+      </div>
+    </div>
+    <nav id="nav-mobile" class="nav-mobile" aria-label="Navigation mobile">
+      <a href="index.html#accueil" data-i18n="nav_accueil">Accueil</a>
+      <a href="index.html#categories" data-i18n="nav_produits">Nos produits</a>
+      <a href="histoire.html" data-i18n="nav_histoire">Notre histoire</a>
+      <a href="index.html#adresse" data-i18n="nav_boutique">Notre boutique</a>
+      <a href="index.html#contact" data-i18n="nav_contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="simple-page">
+      <div class="container">
+        <a class="back-link" href="index.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="20" y1="12" x2="4" y2="12"/><polyline points="11 5 4 12 11 19"/></svg> <span data-i18n="back_home">Retour à l'accueil</span></a>
+        <h1 data-i18n="ml_title">Mentions légales</h1>
+
+        <h2 data-i18n="ml_editeur">Éditeur du site</h2>
+        <p>
+          <span data-i18n="ml_forme">Forme juridique</span> : SARL<br>
+          SIRET : 418 205 274 00016<br>
+          <span data-i18n="ml_tva">Numéro de TVA intracommunautaire</span> : FR83 418205274<br>
+          <span data-i18n="ml_directeur">Directeur de la publication</span> : Jean Philippe Jacquel<br>
+          <span data-i18n="label_adresse">Adresse</span> : 30 boulevard Marinoni, 06310 Beaulieu-sur-Mer<br>
+          <span data-i18n="label_telephone">Téléphone</span> : <a href="tel:+33493010138">04 93 01 01 38</a>
+        </p>
+
+        <h2 data-i18n="ml_conception">Conception du site</h2>
+        <p>Alexandre Jacquel</p>
+
+        <h2 data-i18n="ml_hebergeur">Hébergeur</h2>
+        <p>
+          Hostinger International Ltd<br>
+          61 Lordou Vironos Street<br>
+          6023 Larnaca<br>
+          Chypre
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="index.html#accueil" class="logo"><span class="logo-name">La Boulange<br>de Beaulieu</span></a>
+        <p data-i18n="footer_desc">Boulangerie-pâtisserie artisanale à Beaulieu-sur-Mer. Pains, viennoiseries, pâtisseries et produits salés faits maison.</p>
+        <a class="footer-social" href="https://www.instagram.com/laboulangedebeaulieu/" target="_blank" rel="noopener" aria-label="Instagram La Boulange de Beaulieu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="0.6" fill="currentColor" stroke="none"/></svg>
+          Instagram
+        </a>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer_nav_title">Navigation</h4>
+        <ul>
+          <li><a href="index.html#accueil" data-i18n="nav_accueil">Accueil</a></li>
+          <li><a href="index.html#categories" data-i18n="nav_produits">Nos produits</a></li>
+          <li><a href="histoire.html" data-i18n="nav_histoire">Notre histoire</a></li>
+          <li><a href="index.html#adresse" data-i18n="nav_boutique">Notre boutique</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer_coord_title">Coordonnées</h4>
+        <ul>
+          <li>30 boulevard Marinoni</li>
+          <li>06310 Beaulieu-sur-Mer</li>
+          <li><a href="tel:+33493010138">04 93 01 01 38</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© <span id="footer-year"></span> La Boulange de Beaulieu. <span data-i18n="footer_rights">Tous droits réservés.</span></p>
+      <div class="footer-legal-links"><a href="mentions-legales.html" data-i18n="footer_legal">Mentions légales</a></div>
+    </div>
+  </footer>
+
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
