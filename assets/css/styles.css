@@ -914,7 +914,6 @@ body.theme-sale        { --theme-accent: #7a8a4f; --theme-glow: 122, 138, 79; }
 
 @media (max-width: 860px) {
   .history-layout { grid-template-columns: 1fr; gap: 32px; }
-  .history-gallery__item { aspect-ratio: 16 / 10; }
 }
 
 /* ==========================================================================
